@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 // funcion que carga lo que esta almacenado en el navegador en LS, cuadno el compo se carga es llamado.
 const init =  () => {
